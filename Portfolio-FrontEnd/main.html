@@ -1,33 +1,46 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width-device-width">
-    <link rel="stylesheet" href="/estilos.css">
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-    <title>Document</title>
-  </head>
-  <body>
-    
-      <div class="container fluid">
-          <div>
-            <img src="/imagenes/APLogo-20-20.png" class ="rounded float-start"  alt="logo">
-            <a src="..." class="rounded float" style="float: right; padding-right: 75px;" alt="facebook">
-              facebook
-            </a>
-            <a src="..." class="rounded float" style="float: right; padding: right 130px;" alt="instagram">
-              instagram
-            </a>
-          </div>
+    <!-- Required meta tags -->
 
-          <div class="content-button"> 
-            <button class="btn btn-dark rounded float-end">Login</button>
-          </div>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container flex">
+        <img src="/imagenes/APLogo-20-20.png" alt="logo" style="height: 4em; align-items: flex-start"/>
+        <ul class="nav">
+          <li style="padding: 0 2em 0 0">
+            <a class="nav-link" id="facebook" aria-current="page" href="#">
+              Facebook
+            </a>
+          </li>
+          <li style="padding: 0 1em 0 0">
+            <a class="nav-link" id="instagram" href="#">
+              Instagram
+            </a>
+          </li>
+          <li>
+            <button type="button" class="btn btn-dark" data-target="#" >
+              Login
+            </button>
+          </li>
+        </ul>
       </div>
-    
-      
-    
-    <script src="output/app.js"></script>
+    </header>
+    <hr />
+
+    <!-- Bootstrap JS -->
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
