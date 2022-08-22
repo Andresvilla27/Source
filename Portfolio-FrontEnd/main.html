@@ -10,35 +10,28 @@
 
     <!-- Bootstrap CSS -->
 
-    <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="estilos.css" />
     <title>Portfolio</title>
   </head>
 
   <body>
-    <header>
-      <div class="container flex">
-        <img src="/imagenes/APLogo-20-20.png" alt="logo" style="height: 4em; align-items: flex-start"/>
-        <ul class="nav">
-          <li style="padding: 0 2em 0 0">
-            <a class="nav-link" id="facebook" aria-current="page" href="#">
-              Facebook
-            </a>
-          </li>
-          <li style="padding: 0 1em 0 0">
-            <a class="nav-link" id="instagram" href="#">
-              Instagram
-            </a>
-          </li>
-          <li>
-            <button type="button" class="btn btn-dark" data-target="#" >
-              Login
-            </button>
-          </li>
-        </ul>
+  
+    <div class="flex-container">
+      <div class="row">
+        <div class="col">
+          <img src="/imagenes/APLogo-20-20.png" style="height: 5em;" alt="logo">
+        </div>
+        <div class="col text-end">
+          <a href="#"> facebook</a>
+          <a href="#">instagram</a>
+        </div>
+        <div class="col col-sm-1 flex-end">
+          <button class="btn btn-light"><a href="#">Login</a></button>
+        </div>
       </div>
-    </header>
-    <hr />
+    </div>
+    
 
     <!-- Bootstrap JS -->
     <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>

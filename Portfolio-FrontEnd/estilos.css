@@ -1,11 +1,10 @@
 body{
-    background-color: rgb(4, 32, 61);
+    background-color: rgb(10, 17, 24);
 }
-.nav{
-    display: flex;
-    justify-content: flex-end;
-    padding: auto;
+.btn {
+    background-color: beige;
+    color: azure;
+    border-radius: 15%;
+    position: relative;
 }
-.container {
-    height: 50px;
-}
+
