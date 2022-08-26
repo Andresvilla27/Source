@@ -1,10 +1,17 @@
 body{
-    background-color: rgb(10, 17, 24);
+    background-color: rgb(34, 53, 71);
 }
-.btn {
-    background-color: beige;
-    color: azure;
-    border-radius: 15%;
-    position: relative;
+picture{
+    display: inline-block;
+    justify-content: right;
+    border-radius: 50%;
+    
 }
-
+picture img {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    mix-blend-mode: lighten;
+    filter: grayscale(75%);
+    lighting-color: aqua;
+}
