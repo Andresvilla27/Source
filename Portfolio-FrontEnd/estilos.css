@@ -1,17 +1,41 @@
 body{
-    background-color: rgb(34, 53, 71);
+   background-color: rgb(34, 53, 71);
 }
-picture{
-    display: inline-block;
-    justify-content: right;
+header {
+    position: relative;
+}
+picture {
+
+    display: flex;
+    justify-content: flex-start;
     border-radius: 50%;
+    width: 8em;
     
 }
 picture img {
-    height: 8em;
     width: 8em;
+    height: 8em;
     border-radius: 50%;
     mix-blend-mode: lighten;
     filter: grayscale(75%);
-    lighting-color: aqua;
+    lighting-color: rgb(143, 154, 154,);
 }
+nav h1 {
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    font-style: oblique;
+    color: aquamarine;
+}
+article {
+    padding: 35px;
+}
+article p {
+    padding: 75px 25px 75px 25px;
+    color: azure;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
