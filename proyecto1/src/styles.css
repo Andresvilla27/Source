@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(34, 53, 71);
+    background-color: rgb(28, 28, 79);
  }
  header {
      position: relative;
@@ -24,7 +24,6 @@ body{
  nav h1 {
      display: flex;
      justify-content: center;
-     
      font-weight: 600;
      font-style: oblique;
      color: aquamarine;
