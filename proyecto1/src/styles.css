@@ -1,9 +1,7 @@
-body{
-    background-color: rgb(28, 28, 79);
+body {
+    background-color: rgb(29, 28, 79);
  }
- header {
-     position: relative;
- }
+
  picture {
  
      display: flex;
@@ -30,7 +28,7 @@ body{
      transition: all 300ms;
  }
  h1:hover{
-     transform: scale(1.15);
+     transform: scale(1.25);
      
  }
  article {
@@ -42,10 +40,8 @@ body{
      color: azure;
      
      text-align: center;    
-     transition: all 200ms;
+   
  }
- p:hover {
-     transform: scale(1.15);
- }
+ 
  
  
