@@ -1,16 +1,15 @@
 body {
     background-color: rgb(29, 28, 79);
+    font-family: 'Times New Roman', Times, serif;
  }
 
- picture {
- 
-     display: flex;
-     justify-content: flex-start;
-     border-radius: 50%;
+ nav {
+    width: auto;
+     
      
      
  }
- picture img {
+ div img {
      width: 10em;
      height: 10em;
      border-radius: 50%;
@@ -19,9 +18,10 @@ body {
      lighting-color: rgb(143, 154, 154,);
  }
  
- nav h1 {
+ div h1 {
+    
      display: flex;
-     justify-content: center;
+     justify-content: flex-end;
      font-weight: 600;
      font-style: oblique;
      color: aquamarine;
@@ -31,17 +31,19 @@ body {
      transform: scale(1.25);
      
  }
- article {
-     padding: 35px;
- }
- article p {
+
+ p {
      font-size: larger;
      padding: 75px 25px 75px 25px;
-     color: azure;
+     color: aliceblue;
      
      text-align: center;    
    
  }
+ div a{
+    padding: 15px;
+ }
+ 
  
  
  
