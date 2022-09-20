@@ -1,28 +1,13 @@
 body {
     background-color: #1e446c;
     font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
  }
 
  nav {
     width: auto;
-     
-     
-     
  }
  
- 
-
- p {
-     font-size: larger;
-     padding: 75px 25px 75px 25px;
-     color: aliceblue;
-     
-     text-align: center;    
-   
- }
- div a{
-    padding: 15px;
- }
  
  
  
