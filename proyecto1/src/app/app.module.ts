@@ -9,6 +9,9 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
+import { SocialComponent } from './componentes/social/social.component';
+import { BannerComponent } from './componentes/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { LoginComponent } from './componentes/login/login.component';
     HabilidadesComponent,
     ExperienciaComponent,
     ContactoComponent,
-    LoginComponent
+    LoginComponent,
+    LogoAPComponent,
+    SocialComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
