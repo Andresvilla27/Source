@@ -12,6 +12,8 @@ import { LoginComponent } from './componentes/login/login.component';
 import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
 import { SocialComponent } from './componentes/social/social.component';
 import { BannerComponent } from './componentes/banner/banner.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,15 @@ import { BannerComponent } from './componentes/banner/banner.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 500,
+    })   
   ],
   providers: [],
   bootstrap: [AppComponent]

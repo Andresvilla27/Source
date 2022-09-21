@@ -1,14 +1,37 @@
-row {
+.row {
     padding: 20px;
 }
-
-/*etiqueta nombre*/
-#nombre {
-    font-weight: bold;
-    margin-top: 20%;
-    margin-left: 10px;
-    font-size: large;
+@media (max-width: 575px){
+    h2 {
+    left: 25%;
+    top: 5px;
+    position: relative;
+    }
 }
+@media (min-width: 576px){
+    h2 {
+    left: 50%;
+    top: 8px;
+    position: relative;
+    }
+}
+@media (max-width: 575px){
+    h3 {
+    left: 25%;
+    top: 5px;
+    position: relative;
+    }
+}
+@media (min-width: 576px){
+    h3 {
+    left: 50%;
+    top: 8px;
+    position: relative;
+    }
+}
+
+
+
 /*estilo foto perfil*/
 @media (min-width: 576px){
     #fotoPerfil {
@@ -27,7 +50,7 @@ row {
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 33%;
-        top: 500px;
+        top: 350px;
     }
 }
 
