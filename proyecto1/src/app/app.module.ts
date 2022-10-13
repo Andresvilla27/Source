@@ -13,6 +13,7 @@ import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
 import { SocialComponent } from './componentes/social/social.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { EstudiosComponent } from './componentes/estudios/estudios.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     LoginComponent,
     LogoAPComponent,
     SocialComponent,
-    BannerComponent
+    BannerComponent,
+    EstudiosComponent
   ],
   imports: [
     BrowserModule,
