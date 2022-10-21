@@ -1,8 +1,9 @@
 p {
     padding-top: 3rem;
-    padding-left: 3rem;
+    padding-left: 8rem;
     font-size: large;
 }
+
 @media (max-width: 575px){
     h2 {
     left: 25%;
@@ -48,11 +49,11 @@ p {
 @media (max-width: 575px){
     #fotoPerfil {
         position: absolute;
-        width: 35%;
+        width: 39%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 33%;
-        top: 350px;
+        top: 340px;
     }
 }
 
