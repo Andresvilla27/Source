@@ -1,8 +1,8 @@
 <h3>Habilidades Duras</h3>
-    <div class="row">
+    <div class="row circles">
       <div class="col-sm-4">
         <circle-progress
-        [percent]="85"
+        [percent]="77"
         [radius]="100"
         [outerStrokeWidth]="16"
         [innerStrokeWidth]="8"
@@ -10,18 +10,11 @@
         [innerStrokeColor]="'#c0c0c0'"
         [animation]="true"
         [animationDuration]="500"
-        ></circle-progress>
-      </div>
-      <div class="col-sm-4">
-        <circle-progress
-        [percent]="85"
-        [radius]="100"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="8"
-        [outerStrokeColor]="'#0080c0'"
-        [innerStrokeColor]="'#c0c0c0'"
-        [animation]="true"
-        [animationDuration]="500"
+        [showSubtitle]="false"
+        [imageSrc]="'../assets/iconos/html.png'"
+        [showImage]="true"
+        [imageHeight]="80"
+        [imageWidth]="80"
         ></circle-progress>
       </div>
       <div class="col-sm-4">
@@ -34,6 +27,27 @@
         [innerStrokeColor]="'#c0c0c0'"
         [animation]="true"
         [animationDuration]="500"
+        [imageSrc]="'../assets/iconos/CSS.png'"
+        [showImage]="true"
+        [imageHeight]="80"
+        [imageWidth]="80"
+        [showSubtitle]="false"
+        ></circle-progress>
+      </div>
+      <div class="col-sm-4">
+        <circle-progress
+        [percent]="85"
+        [radius]="100"
+        [outerStrokeWidth]="16"
+        [innerStrokeWidth]="8"
+        [outerStrokeColor]="'#0080c0'"
+        [innerStrokeColor]="'#c0c0c0'"
+        [animation]="true"
+        [animationDuration]="500"
+        [title]="'ANGULAR JS'"
+        [titleColor]="'white'"
+        [titleFontSize]="'23'"
+        [showSubtitle]="false"
         ></circle-progress>
       </div>
       <div class="col-sm-4">
@@ -46,6 +60,10 @@
         [innerStrokeColor]="'#0080c0'"
         [animation]="true"
         [animationDuration]="500"
+        [title]="'java'"
+        [titleColor]="'white'"
+        [titleFontSize]="'25'"
+        [showSubtitle]="false"
         ></circle-progress>
       </div>
       <div class="col-sm-4">
@@ -58,6 +76,11 @@
         [innerStrokeColor]="'#0080c0'"
         [animation]="true"
         [animationDuration]="500"
+        [imageSrc]="'../assets/iconos/js.png'"
+        [showImage]="true"
+        [imageHeight]="80"
+        [imageWidth]="80"
+        [showSubtitle]="false"
         ></circle-progress>
       </div>
       <div class="col-sm-4">
@@ -70,14 +93,14 @@
         [innerStrokeColor]="'#0080c0'"
         [animation]="true"
         [animationDuration]="500"
+        [title]="'PYTHON'"
+        [titleColor]="'white'"
+        [titleFontSize]="'25'"
+        [showSubtitle]="false"
         ></circle-progress>
+      </div>        
+      <div class="col-1 btn-mod">
+        <button class="btn btn-light">&#9998;</button>
       </div>
-        
-      
-        
-        <div>
-          <button class="btn btn-dark">&#9998;</button>    
-        </div>
-      
     </div>
  

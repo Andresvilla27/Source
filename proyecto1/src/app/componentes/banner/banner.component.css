@@ -18,8 +18,8 @@
     position: absolute;
     top: 60px;
     right: 50px;
-    text-shadow: 0 0 8px rgb(95,94,94);
-    color: rgb(143, 195, 197);
+    text-shadow: 3px 3px rgb(22, 96, 99);
+    color: rgb(154, 196, 197);
     font-size: 3.2em;
     
 }
@@ -27,8 +27,8 @@
     position: absolute;
     top: 120px;
     right: 50px;
-    text-shadow: 0 0 8px rgb(95, 94, 94);
-    color: rgb(143, 195, 197);
+    text-shadow: 3px 3px rgb(22, 96, 99);
+    color: rgb(154, 195, 197);
     font-size: 1.9em;
 }
 
